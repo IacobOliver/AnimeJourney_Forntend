@@ -1,0 +1,85 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  background-color: #050505;
+  height: min-content;
+}
+
+body {
+  background-color: #050505;
+  height: 100vh;
+}
+
+.titleSize {
+  font-size: 4rem
+    /* 30px */
+  ;
+  line-height: 4rem
+    /* 36px */
+  ;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  position: absolute;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.coolGradient {
+  /* background: rgb(5,5,5);
+  background: linear-gradient(0deg, rgba(5,5,5,1) 39%, rgb(240, 125, 17) 100%); */
+  background: rgb(5,5,5);
+background: linear-gradient(90deg, rgba(5,5,5,1) 18%, rgba(241,139,12,1) 100%);
+}
+
+.transparentBackground{
+  background-color: rgba(0,0,0,0.8);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.truncate-paragraph {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .truncate-paragraph {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
+
+
+
+
