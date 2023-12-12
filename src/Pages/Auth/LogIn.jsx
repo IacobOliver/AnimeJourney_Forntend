@@ -72,7 +72,7 @@ export default function LogIn() {
 
 
       <div className=" bg-black_second_theme w-fit h-fit mt-20 rounded-xl text-fifth_color_theme font-fantasy tracking-wide p-3 flex animate-jump-in ">
-        <img className="h-[30rem]" src="../../../public/form/luffy1.png" />
+        <img className="h-[30rem]" src="/form/luffy1.png" />
         <div className="w-96 flex flex-col justify-evenly">
           <div>
             <p className="text-center text-3xl">Log In</p>

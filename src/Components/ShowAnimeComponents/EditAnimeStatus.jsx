@@ -182,7 +182,7 @@ export default function EditAnimeStatus({ numberOfEpisodes, anime }) {
             </div>
 
             <div className="flex items-center justify-center w-full" >
-                <div className={` bg-center bg-cover h-14 w-14 rounded-l-lg ${effect && "animate-icon-pop-in"}`} onAnimationEnd={() => setEffect(false)} style={{ backgroundImage: `url(../../../public/icons/${score}.jpg)` }}></div>
+                <div className={` bg-center bg-cover h-14 w-14 rounded-l-lg ${effect && "animate-icon-pop-in"}`} onAnimationEnd={() => setEffect(false)} style={{ backgroundImage: `url(/icons/${score}.jpg)` }}></div>
                 <select id="myScore"
                      value={score}
                       onChange={(e) =>userAnime ? Utils.onStatusChange({e, animeDetailsId, setScore, setEffect}) : addToListEvent(null, e.target.value)}
