@@ -48,7 +48,7 @@ export default function Layout() {
                     </div>
 
                     <div className="h-auto py-1 w-[13rem] sm:h-full sm:w-auto lg:mr-4 cursor-pointer" onClick={() => navigate("/home")}>
-                        <img draggable="false" className="h-full hidden sm:flex " src="\dist\animejourney-low-resolution-logo-color-on-transparent-background.png" />
+                        <img draggable="false" className="h-full hidden sm:flex " src="\images\animejourney-low-resolution-logo-color-on-transparent-background.png" />
                         <div className="h-14 w-14  rounded-full sm:hidden bg-forth_color_theme relative flex items-center justify-center border-[3px] border-third_color_theme">
                             <div className=" bg-third_color_theme h-2/3 w-2/3 rounded-full absolute"></div>
                             <img draggable="false" className="z-10 p-1 " src="\public\projectLogo.png" />
