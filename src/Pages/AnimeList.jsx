@@ -111,7 +111,7 @@ export default function AnimeList() {
 
                 <div className="bg-[rgb(15,15,15)]  flex flex-col justify-center items-center w-5/6 rounded-xl">
                     <p className=" text-third_color_theme text-6xl">Anime List</p>
-                    <img draggable={false} src="public\animejourney-low-resolution-logo-color-on-transparent-background.png" className=" w-5/6 my-5" />
+                    <img draggable={false} src="images\animejourney-low-resolution-logo-color-on-transparent-background.png" className=" w-5/6 my-5" />
                 </div>
                 <div className="my-3 ">
                     <CostumButton text={"All Anime"} event={filterCategoryEvent} id={6} />

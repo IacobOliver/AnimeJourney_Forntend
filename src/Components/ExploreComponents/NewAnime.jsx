@@ -19,7 +19,7 @@ export default function AnimeList() {
 
 
     useEffect(() => {
-        fetch(`http://13.48.56.38:80/newAnimeSeasons/getAnime`, {
+        fetch(`http://localHOst:8080/newAnimeSeasons/getAnime`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
